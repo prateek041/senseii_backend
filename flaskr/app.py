@@ -14,7 +14,7 @@ def create_app():
     # Below is a sample route to test if the flask server is working.
     @app.route("/hello")
     def hello():
-        return jsonify("boobies")
+        return jsonify("this is a test route")
 
     # register the blueprints to the server.
     app.register_blueprint(user_activity_bp)
